@@ -97,7 +97,15 @@ https://templatemo.com/tm-589-lugx-gaming
           <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.</p>
           <form id="qty" action="#">
             <input type="qty" class="form-control" id="1" aria-describedby="quantity" placeholder="1">
-            <button type="submit"><i class="fa fa-shopping-bag"></i> ADD TO CART</button>
+           <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1OywdcP8lHha9NP81K1xttaE"
+  publishable-key="pk_live_51OyrujP8lHha9NP8RV9GVsb1RBvnae4CEnvZpf8OyImXOsMYSE25aIuZc7toIrkMs7jWPYKWELr29wpBRzluCNkV00Skv3n4Dp"
+>
+</stripe-buy-button>
           </form>
           <ul>
             <li><span>Game ID:</span> COD MMII</li>
